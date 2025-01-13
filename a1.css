@@ -40,7 +40,7 @@
       text-decoration: none;
       font-size: 18;
   }
-  .signin-color{
+  .signin-button{
       color: #006A50;
       font-size: 600;
       padding: 15px 30px;
@@ -57,6 +57,7 @@
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
   }
 
@@ -94,4 +95,73 @@
 }
 .text-center{
     text-align: center;
+}
+/*skill section*/
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding:30px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.skills{
+    margin: 0 35px 0 55px;
+}
+.skill-tittle{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill-description{
+    color: #0E0E0E;
+    font-weight: 400;
+    font-size: 16px;
+}
+.skill-bg1{
+    background-color: rgba(84, 144, 245, 0.2)
+}
+.skill-bg2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.skill-bg3{
+    background-color: rgba(247, 235, 207, 1);
+
+}
+.skill-button-bg1{
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    padding: 20px 11px;
+    font-weight: 600;
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    align-items: center;
+    padding: 20px 11px;
+    font-size: 16px;
+}
+.skill-button-bg2{
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 8px;
+    padding: 20px 11px;
+    font-weight: 600;
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    align-items: center;
+    padding: 20px 11px;
+    font-size: 16px;
+}
+.skill-button-bg3{
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px;
+    padding: 20px 11px;
+    font-weight: 600;
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    align-items: center;
+    padding: 20px 11px;
+    font-size: 16px;
 }
