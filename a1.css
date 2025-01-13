@@ -30,8 +30,11 @@
       display: flex;
   }
   .nav-tittle{
-      font-weight:bold;
+      font-weight: bold;
       font-size: 32px;
+      margin:none
+      
+      
   }
   nav ul li{
       list-style: none;
@@ -42,7 +45,7 @@
   }
   .signin-button{
       color: #006A50;
-      font-size: 600;
+      font-weight: 600;
       padding: 15px 30px;
       background-color: white;
       border-radius: 8px;
@@ -89,9 +92,10 @@
 
 }
 .section-tittle{
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 1);
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 .text-center{
     text-align: center;
@@ -165,3 +169,15 @@
     padding: 20px 11px;
     font-size: 16px;
 }
+
+/*card style*/
+.card-style{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+ .card{
+    display: flex;
+    border-radius: 24px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+ }
