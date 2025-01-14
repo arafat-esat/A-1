@@ -196,7 +196,10 @@
 }
 .card-style{
     background-color: rgba(255, 255, 255, 1);
-    margin: 20px auto;
+    
+    margin: 20px 20px;
+    
+    
     width: 1280px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -234,4 +237,86 @@
     font-size: 18px;
     font-weight: 600px;
 }
+/*donate-section-start*/
 
+.donate-section{
+    display: flex;
+    margin: 0 35px 0 55px;
+
+    text-align: center;
+    justify-content: center;
+align-items: center;
+display: flex;
+
+
+
+}
+.donate-tittle{
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    text-align: center;
+}
+.donation-box{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: bold;
+}
+.donation-option{
+border-color: rgba(14, 14, 14, 0.15);
+    display: flex;
+    border-color: rgba(14, 14, 14, 0.15);
+    justify-content: space-between;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+                
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius: 16px;
+    gap: 24px;
+
+
+
+}
+.donation-option-selected{
+    background-color: rgba(198, 228, 214, 1);
+    border: rgba(198, 228, 214, 1);
+}
+.custom-amount{
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 40px 40px;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+.donate-button {
+    background-color: #007b5e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+    
+
+    justify-content: center;
+    
+
+    
+
+ 
